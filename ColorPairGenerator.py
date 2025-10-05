@@ -1,5 +1,5 @@
-from Color_Constants import MAJOR_COLORS
-from Color_Constants import MINOR_COLORS
+from ColorConstants import MAJOR_COLORS
+from ColorConstants import MINOR_COLORS
 def get_color_from_pair_number(pair_number):
   zero_based_pair_number = pair_number - 1
   major_index = zero_based_pair_number // len(MINOR_COLORS)
