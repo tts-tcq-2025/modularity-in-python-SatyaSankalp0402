@@ -1,5 +1,5 @@
-from test import test_number_to_pair
-from test import test_pair_to_number
+from testColorCoder import test_number_to_pair
+from testColorCoder import test_pair_to_number
 from WiringManualGeneration import print_color_coding_manual
 from ColorConstants import MAJOR_COLORS, MINOR_COLORS
 if __name__ == '__main__':
