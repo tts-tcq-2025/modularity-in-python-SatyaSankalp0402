@@ -1,5 +1,5 @@
-from Color_Pair_Generator import get_color_from_pair_number
-from Pair_Number_Generator import get_pair_number_from_color
+from ColorPairGenerator import get_color_from_pair_number
+from PairNumberGenerator import get_pair_number_from_color
 
 def test_number_to_pair(pair_number,
                         expected_major_color, expected_minor_color):
