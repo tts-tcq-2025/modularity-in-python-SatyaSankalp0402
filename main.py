@@ -1,7 +1,7 @@
 from test import test_number_to_pair
 from test import test_pair_to_number
 from WiringManualGeneration import print_color_coding_manual
-from Color_Constants import MAJOR_COLORS, MINOR_COLORS
+from ColorConstants import MAJOR_COLORS, MINOR_COLORS
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
   test_number_to_pair(5, 'White', 'Slate')
